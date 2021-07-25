@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header Section */
+header{
+    background: linear-gradient(to left, #FFFBA7, #FFEF62);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    margin: 50px;
+    font-family: 'Pacifico';
+    font-size: 32px;
+}
+
+nav{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    color: black;
+}
+
+li {
+    margin-right: 50px;
+    list-style : none;
+}
+
+/* Banner Section */
+
+.main-background{
+    opacity: 10%;
+}
