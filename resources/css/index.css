@@ -16,6 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 80px;
+    width: 100%;
     align-items: center;
     z-index: 1;
 }
@@ -45,13 +46,13 @@ li {
 /* Main Background */
 
 .main-background{
-    background-size: 1440px 1024px;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    margin: 0 auto;
     overflow: hidden;
     position: absolute;
     z-index: -9999;
+    width: 100%;
 }
 
 .main-background img{
@@ -64,14 +65,17 @@ li {
     display: flex;
     flex-flow: row;
     position: relative;
-
     align-items: center;
+}   
+
+.main-banner{
+    margin: 50px;
 }
 
 .main-banner img{
     width: 500px;
     height: 800px;
     border-radius: 60px;
-    
+    box-shadow: 20px 20px 0 rgb(0 0 0 / 0.1);
 }
 
