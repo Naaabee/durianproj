@@ -53,6 +53,7 @@ li {
     position: absolute;
     z-index: -9999;
     width: 100%;
+    align-self: center;
 }
 
 .main-background img{
@@ -65,7 +66,7 @@ li {
     display: flex;
     flex-flow: row;
     position: relative;
-    align-items: center;
+    
 }   
 
 .main-banner{
@@ -79,3 +80,36 @@ li {
     box-shadow: 20px 20px 0 rgb(0 0 0 / 0.1);
 }
 
+.intro{
+    display: flex;
+    flex-flow: column;
+    margin: 80px 0 0 0;
+}
+
+.intro h1{
+    font-family: "pacifico";
+    font-size: 100px;
+    text-shadow: 5px 5px 0 rgb(0 0 0 / 0.1);
+}
+
+.intro .lead{
+    font-size: 35px;
+
+}
+
+.intro p{
+    font-size: 22px;
+    font-family: "poppins";
+    line-height: normal;
+}
+
+.button{
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: bold;
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to left, rgba(255, 251, 168, 100%), rgba(255, 239, 97, 100%));
+}
