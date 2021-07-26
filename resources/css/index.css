@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -11,11 +12,12 @@ a{
 
 /* Header Section */
 header{
-    background: linear-gradient(to left, #FFFBA7, #FFEF62);
+    background: linear-gradient(to left, rgba(255, 251, 168, 100%), rgba(255, 239, 97, 100%));
     display: flex;
     justify-content: space-between;
     height: 80px;
     align-items: center;
+    z-index: 1;
 }
 
 .logo{
@@ -40,8 +42,36 @@ li {
     list-style : none;
 }
 
-/* Banner Section */
+/* Main Background */
 
 .main-background{
+    background-size: 1440px 1024px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: -9999;
+}
+
+.main-background img{
     opacity: 10%;
 }
+
+/* Banner Section */
+
+.banner{
+    display: flex;
+    flex-flow: row;
+    position: relative;
+
+    align-items: center;
+}
+
+.main-banner img{
+    width: 500px;
+    height: 800px;
+    border-radius: 60px;
+    
+}
+
